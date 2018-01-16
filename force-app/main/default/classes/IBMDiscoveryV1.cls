@@ -2,7 +2,7 @@
  * The IBM Watson Discovery Service is a cognitive search and content analytics engine that you can add to applications
  * to identify patterns, trends and actionable insights to drive better decision-making. Securely unify structured and
  * unstructured data with pre-enriched content, and use a simplified query language to eliminate the need for manual
- * filtering of results.
+ * filtering of results. 
  *
  * @version V1
  * @see <a href="http://www.ibm.com/watson/developercloud/discovery.html">Discovery</a>
@@ -12,6 +12,8 @@ public class IBMDiscoveryV1 extends IBMWatsonService {
   private static final String URL = 'https://gateway.watsonplatform.net/discovery/api';
   private String versionDate;
 
+  /** The Constant VERSION_DATE_2018_01_01. */
+    public static final String VERSION_DATE_2018_01_01 = '2018-01-01';
   /** The Constant VERSION_DATE_2017_09_01. */
     public static final String VERSION_DATE_2017_09_01 = '2017-09-01';
   /** The Constant VERSION_DATE_2017_08_01. */
